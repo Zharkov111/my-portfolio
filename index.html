@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zharkov Maxim</title>
-    <link rel="stylesheet" href="./CSS/index.css" />
 
     <script
       type="module"
@@ -21,10 +20,20 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./CSS/index.css" />
   </head>
   <body>
+    <!-- NAVIGATION SECTION -->
+    <input type="checkbox" id="tagger" />
     <header>
       <a href="#!" class="logo"><span>Zha</span>rkov</a>
+      <label for="tagger"
+        ><ion-icon class="bar" name="menu-outline"></ion-icon
+      ></label>
       <ul class="navbar">
         <li><a href="#!" class="active">Home</a></li>
         <li><a href="#!">About</a></li>
@@ -33,12 +42,44 @@
         <li><a href="#!">Design</a></li>
         <li><a href="#!">Contacts</a></li>
       </ul>
-      <div class="menu-btn">
-          <span>INTRO</span>
-          <div class="bx-menu"></div><ion-icon class="menu-icon" name="menu-outline"></ion-icon></div>
-      </div>
     </header>
-
-    <script src="./js/script.js"></script>
+    <!-- HOME SICTION -->
+    <section class="home">
+      <div class="home-text">
+        <span>Software Developer</span>
+        <h1>Zharkov Maxim</h1>
+        <p>
+          I am a web developer, a freelancer with extensive experience and a
+          portfolio
+        </p>
+        <div class="main-btn">
+          <a href="./resume/resume.docx" download="RESUME" class="btn"
+            >Download CV</a
+          >
+          <a
+            href="https://www.fiverr.com/zharkovmaxim?up_rollout=true"
+            class="btn two"
+            >Hire Me Now</a
+          >
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="./images/home.png" alt="" />
+      </div>
+    </section>
+    <div class="share">
+      <p>Chack out my:</p>
+      <div class="social">
+        <a href="https://www.instagram.com/zhark0v111/"
+          ><ion-icon name="logo-instagram"></ion-icon
+        ></a>
+        <a href="mailto:zharkovmax111@gmail.com"
+          ><ion-icon name="at-outline"></ion-icon
+        ></a>
+        <a href="https://github.com/dashboard"
+          ><ion-icon name="logo-github"></ion-icon
+        ></a>
+      </div>
+    </div>
   </body>
 </html>

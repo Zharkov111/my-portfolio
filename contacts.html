@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacts Zharkov</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/contacts.css" />
+  </head>
+  <body>
+    <!-- NAVIGATION SECTION -->
+    <input class="checkbox" type="checkbox" id="tagger" />
+    <header>
+      <a href="./index.html" class="logo"><span>Zha</span>rkov</a>
+      <label for="tagger"
+        ><ion-icon class="bar" name="menu-outline"></ion-icon
+      ></label>
+      <ul class="navbar">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="#!">About</a></li>
+        <li><a href="#!">Services</a></li>
+        <li><a href="#!">Project</a></li>
+        <li><a href="#!">Design</a></li>
+        <li><a href="./contacts.html" class="active">Contacts</a></li>
+      </ul>
+    </header>
+    <!-- Contacts Section -->
+    <div class="container">
+      <main class="row">
+        <section class="col left">
+          <div class="contactTitle">
+            <h2>Get In Touch</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="contactInfo">
+            <div class="iconGroup">
+              <div class="icon">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+              </div>
+              <div class="details">
+                <span>whatsapp</span>
+                <span>+380888888888</span>
+              </div>
+            </div>
+            <div class="iconGroup">
+              <div class="icon">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+              <div class="details">
+                <span>Gmail</span>
+                <span>zharkovmax111@gmail.com</span>
+              </div>
+            </div>
+            <div class="iconGroup">
+              <div class="icon">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+              <div class="details">
+                <span>Locatio</span>
+                <span>Brussel België</span>
+              </div>
+            </div>
+          </div>
+          <div class="socialMedia">
+            <a href="#!"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="#!"><ion-icon name="logo-github"></ion-icon></a>
+          </div>
+        </section>
+        <section class="col right">
+          <form class="messageForm">
+            <div class="inputGroup halfwidth">
+              <input type="text" name="" required="required" />
+              <label for="name">Your Name</label>
+            </div>
+            <div class="inputGroup halfwidth">
+              <input type="text" name="" required="required" />
+              <label for="name">Email</label>
+            </div>
+            <div class="inputGroup fullWidth">
+              <input type="text" name="" required="required" />
+              <label>Subject</label>
+            </div>
+            <div class="inputGroup fullWidth">
+              <textarea required="required"></textarea>
+              <label>Say Something</label>
+            </div>
+            <div class="inputGroup fullWidth">
+              <button>Send Message</button>
+            </div>
+          </form>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

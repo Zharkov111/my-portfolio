@@ -13,7 +13,7 @@ body {
     color: var(--text-color);
 }
 
-input {
+.checkbox {
     display: none;
 }
 
@@ -195,21 +195,18 @@ section {
 
 }
 
-.social ion-icon{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    height: 35px;
-    width: 35px;
-    background: linear-gradient(130.08deg, #383528 0%, #191919 100%);
-    box-shadow: 0 30px 50px #00000070;
-    border: 1px solid;
-    border-radius: 50%;
-    color: #c3c3c3;
+.social ion-icon {
+    color: #ddd;
+    font-size: 30px;
+    line-height: 35px;
+    border: 1px solid transparent;
+    transition: 0.4s;
 }
 
-.social ion-icon:hover{
-    transform: translateY(-10px);
+.social ion-icon:hover {
+    transform: translateY(-5px);
+    background-color: var(--bg-color);
+    color: var(--main-color);
 }
 
 @media (max-width: 1850px) {
@@ -337,7 +334,4 @@ input:checked ~ header .navbar {
 }
 
 }
-.home-img img {
-    animation: img 2c ease-in-out infinite;
-    animation-delay: 2s;
-}
+

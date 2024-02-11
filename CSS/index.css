@@ -88,11 +88,6 @@ transition: all ease .0.50s;
     cursor: pointer;
 }
 
-.menu-icon {
-    font-size: 28px;
-    margin-left: 10px;
-    z-index: 6;
-}
 
 section {
     padding: 0 15%; 
@@ -246,7 +241,7 @@ header {
 }
 }
 
-@media (max-width: 1020px) {
+@media (max-width: 1260px) {
 .navbar a{
         margin: 0 15px;
 }
